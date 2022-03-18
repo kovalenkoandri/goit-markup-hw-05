@@ -548,18 +548,18 @@ img {
 }
 
 .portfolio-a:hover .portfolio-img-div {
-  height: 294px;
-  background-color: var(--accent-color);
   opacity: 0.9;
-  position: absolute;
-  transform: translateY(-294px);
   transition-property: transform;
   transition-duration: 2s;
+  transform: translateY(-294px);
 }
 
 .portfolio-img-div-p {
+  position: absolute;
   opacity: 0;
   font-size: 0;
+  height: 294px;
+  background-color: var(--accent-color);
 }
 
 .portfolio-a:hover .portfolio-img-div-p,
