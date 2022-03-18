@@ -326,6 +326,31 @@ header {
   margin-right: 30px;
 }
 
+.we-do-div {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.we-do-p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .bg-color-team {
   background-color: #f5f4fa;
 }
@@ -624,14 +649,11 @@ img {
 }
 
 .footer-p-join {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
+  line-height: 1.14;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
   margin-bottom: 20px;
 }
 
