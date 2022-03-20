@@ -573,7 +573,7 @@ img {
 /* height: 294px; */
 
 .portfolio-a:hover .portfolio-img-div,
-.portfolio-a:hover .portfolio-img-div-p {
+.portfolio-a:focus .portfolio-img-div {
   transform: translateY(0);
 }
 
